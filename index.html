@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Source+Code+Pro:400,700" rel="stylesheet">
+
+  <!-- Extra CSS -->
+  <link rel="stylesheet" href="styles/myStyles.css">
+
+  <title>Home - Communico.io</title>
+</head>
+
+<body>
+  <section id="title">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <a class="navbar-brand brand-font" href="#">
+        <img class="logo" src="images/TextShieldLarge_White.png" alt="Communico.io logo">
+        Communico.io
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-md-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#dmarc">DMARC</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#spf">SPF</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#dkim">DKIM</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0 ml-md-auto">
+          <input class="form-control mr-sm-2" type="search" placeholder="Your domain..." aria-label="Search">
+          <button class="btn btn-outline my-2 my-sm-0 check" type="submit">Check</button>
+        </form>
+      </div>
+    </nav>
+
+    <div class="background row">
+      <div class="col-lg-7 text-left">
+        <div class="slogan">
+          <h1>Don't trust. Authenticate.</h1>
+          <h3>Manage email authentication and get full insight into email flows, while remaining in control over your data and DNS.</h3>
+          <a role="button" class="btn btn-light btn-lg download-button" href="mailto:info@Communico.io?Subject=How%20do%20I%20get%20started%3F"><i class="fas fa-envelope"></i> Contact</a>
+          <a role="button" class="btn btn-outline btn-lg download-button check" href="#pricing"><i class="fab fa-bitcoin"></i> Pricing</a>
+        </div>
+      </div>
+      <div class="col-lg-5 text-right">
+        <img class="analytics-icon" src="images/analytics.png" alt="analytics icon">
+      </div>
+    </div>
+  </section>
+
+  <section id="features">
+    <div>
+      <div class="row">
+        <div class="col-lg-4 feature-spacing">
+          <i class="fas fa-globe feature-icons"></i>
+          <h3>Overcome SPF</h3>
+          <p>
+            When an organization starts using many tools to communicate via email, managing SPF records becomes tedious.<br>
+            CommunicoApp will overcome all known limitations and lets you add a tool in a single click.
+          </p>
+        </div>
+        <div class="col-lg-4 feature-spacing">
+          <i class="fas fa-calendar-alt feature-icons"></i>
+          <h3>Track DKIM Selectors</h3>
+          <p>
+            Age of DNS records is hard to check, while timely key rotation is recommended.<br>
+            CommunicoApp will let you track your DKIM selectors' age, key length and related software product.
+          </p>
+        </div>
+        <div class="col-lg-4 feature-spacing">
+          <i class="fas fa-chart-bar feature-icons"></i>
+          <h3>Manage DMARC Data</h3>
+          <p>
+            Making heads or tails of DMARC aggregate reports in daily XML files is a challenge. Keeping that data private while doing so, even more.<br>
+            CommunicoApp lets <em>you</em> collect and visualize <em>your</em> data, while storing that data in <em>your</em> storage account.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="infrastructure">
+    <div class="row">
+      <div class="col-lg-7">
+        <img src="images/buildingblocks1.png" alt="CommunicoApp Building Blocks">
+      </div>
+      <div class="col-lg text-left">
+        <h2>CommunicoApp Design</h2>
+        <p>
+          CommunicoApp was designed with Microsoft Cloud in mind.
+          While Microsoft Office 365 Enterprise licenses offer both mailboxes as well as PowerBI,
+          Microsoft Azure offers all the tools necessary to build a serverless automation tool.
+          Together they can form a private web app that requires no server OS maintenance,
+          while storing your DMARC data and DNS records in your own environment.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing">
+    <h2>CommunicoApp is modular</h2>
+    <p>Choose which tools you require, it's free!<span class="disclaimer-star">*</span></p>
+    <div class="row mb-3">
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h3 class="my-0 font-weight-normal">DMARC</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="card-title pricing-card-title">Free<span class="disclaimer-star">*</span></h2>
+            <p>Exchange Mailbox</p>
+            <p>Logic App</p>
+            <p>Functions</p>
+            <p>Storage</p>
+            <p>PowerBI</p>
+            <button class="btn btn-lg btn-block btn-outline check" type="button">Get Started</button>
+          </div>
+        </div>
+      </div>
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h3 class="my-0 font-weight-normal">SPF</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="card-title pricing-card-title">Free<span class="disclaimer-star">*</span></h2>
+            <p>Azure DNS</p>
+            <p>Functions</p>
+            <p>Storage Account</p>
+            <p>Key Vault</p>
+            <p>Web App</p>
+            <button class="btn btn-lg btn-block btn-dark" type="button">Get Started</button>
+          </div>
+        </div>
+      </div>
+      <div class="pricing-column col-lg-4">
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h3 class="my-0 font-weight-normal">DKIM</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="card-title pricing-card-title">Free<span class="disclaimer-star">*</span></h2>
+            <p>Azure DNS</p>
+            <p>Functions</p>
+            <p>Storage Account</p>
+            <p>Key Vault</p>
+            <p>Web App</p>
+            <button class="btn btn-lg btn-block btn-dark" type="button">Get Started</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="disclaimer"><span class="disclaimer-star">*</span> Azure components may incur costs, depending on your subscription model and usage. Communico.io will not charge additional costs. The software is open source.</p>
+  </section>
+
+  <section id="cta">
+    <h2>Get started today, or donate to help improve this open source tool.</h2>
+    <a role="button" class="btn btn-light btn-lg download-button" href="mailto:info@Communico.io?Subject=How%20do%20I%20get%20started%3F"><i class="fas fa-envelope"></i> Contact</a>
+    <a role="button" class="btn btn-outline btn-lg download-button check" href="#pricing"><i class="fab fa-bitcoin"></i> Donate</a>
+  </section>
+
+  <section id="footer">
+
+    <!-- credits -->
+    <a class="fab fa-twitter social-icons" href="https://twitter.com/Communico_io"></a>
+    <a class="fas fa-envelope social-icons" href="mailto:info@communico.io"></a>
+    <a class="fab fa-github social-icons" href="https://github.com/communico-io"></a>
+    <a class="fab fa-btc social-icons donate" href="#"></a>
+    <p class="footer-middle-p">Made with <i class="fas fa-heart donate"></i> by <a class="footer-link" href="https://reinto.nl">Reinto</a></p>
+    <p>Analytics icon made by <a class="footer-link" href="https://www.freepik.com/">Freepik</a> from <a class="footer-link" href="https://www.flaticon.com/">Flaticon</a> and is licensed by <a class="footer-link" href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC
+        3.0 BY</a></p>
+  </section>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+
+</html>

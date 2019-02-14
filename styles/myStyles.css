@@ -1,0 +1,143 @@
+body {
+  color: white;
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.navbar {
+  background-color: #005792;
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+}
+
+#title li {
+  margin: auto .5rem;
+}
+
+.brand-font {
+  color: white;
+  font-family: "Source Code Pro";
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.check {
+  border-color: #fdb44b;
+  color: #fdb44b;
+}
+
+.check:hover {
+  background-color: #fdb44b;
+  color: white;
+}
+
+.background {
+  background-color: #00204a;
+  color: white;
+  padding: 150px 12% 80px;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.analytics-icon {
+  height: 300px;
+  width: 300px;
+}
+
+#features {
+  color: #5a5a5a;
+  padding: 7% 12%;
+  text-align: center;
+}
+
+.feature-spacing {
+  padding: 4%;
+}
+
+.feature-icons {
+  color: #448ef6;
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.feature-icons:hover {
+  color: #005792;
+}
+
+#infrastructure {
+  background-color: #448ef6;
+  padding: 7% 12%;
+}
+
+#infrastructure img {
+  border-radius: 5%;
+  border: 3px solid #fdb44b;
+  height: auto;
+  padding: 1.5%;
+  width: 100%;
+}
+
+#pricing {
+  color: #5a5a5a;
+  padding: 7% 12%;
+  text-align: center;
+}
+
+ .disclaimer {font-size: .75rem;}
+
+ .disclaimer-star {
+   color: #fdb44b;
+ }
+
+#cta {
+  background-color: #00204a;
+  padding: 5% 12% 3%;
+  text-align: center;
+}
+
+#footer {
+  color: #5a5a5a;
+  font-size: .75rem;
+  text-align: center;
+}
+
+.social-icons {
+  color: #448ef6;
+  padding: 5% 1% 1%;
+}
+
+.social-icons:hover {
+  color: #005792;
+  text-decoration: none;
+}
+
+.donate {color: #448ef6;}
+
+.donate:hover {color: #fdb44b;}
+
+.footer-link {color: #448ef6;}
+
+.footer-link:hover {color: #005792;}
+
+.footer-middle-p {margin-bottom: .5rem;}
