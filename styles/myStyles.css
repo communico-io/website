@@ -1,6 +1,7 @@
 body {
   color: white;
   font-family: "Montserrat";
+  text-align: center;
 }
 
 h1 {
@@ -56,9 +57,11 @@ h3 {
   padding: 150px 12% 80px;
 }
 
-.download-button {
-  margin: 5% 3% 5% 0;
-}
+.column-1 {text-align: left;}
+
+.column-2 {text-align: right;}
+
+.download-button {margin: 5% 3% 5% 0;}
 
 .analytics-icon {
   height: 300px;
@@ -68,12 +71,9 @@ h3 {
 #features {
   color: #5a5a5a;
   padding: 7% 12%;
-  text-align: center;
 }
 
-.feature-spacing {
-  padding: 4%;
-}
+.feature-spacing {padding: 4%;}
 
 .feature-icons {
   color: #448ef6;
@@ -81,14 +81,14 @@ h3 {
   margin-bottom: 1rem;
 }
 
-.feature-icons:hover {
-  color: #005792;
-}
+.feature-icons:hover {color: #005792;}
 
 #infrastructure {
   background-color: #448ef6;
   padding: 7% 12%;
 }
+
+.column-3 {text-align: left;}
 
 #infrastructure img {
   border-radius: 5%;
@@ -101,25 +101,20 @@ h3 {
 #pricing {
   color: #5a5a5a;
   padding: 7% 12%;
-  text-align: center;
 }
 
- .disclaimer {font-size: .75rem;}
+.disclaimer {font-size: .75rem;}
 
- .disclaimer-star {
-   color: #fdb44b;
- }
+.disclaimer-star {color: #fdb44b;}
 
 #cta {
   background-color: #00204a;
   padding: 5% 12% 3%;
-  text-align: center;
 }
 
 #footer {
   color: #5a5a5a;
   font-size: .75rem;
-  text-align: center;
 }
 
 .social-icons {
@@ -141,3 +136,9 @@ h3 {
 .footer-link:hover {color: #005792;}
 
 .footer-middle-p {margin-bottom: .5rem;}
+
+@media (max-width: 991px) {
+  .column-1 {text-align: center;}
+  .column-2 {text-align: center;}
+  .column-3 {text-align: center;}
+}
