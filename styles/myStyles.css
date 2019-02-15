@@ -19,10 +19,13 @@ h3 {
   font-weight: 700;
 }
 
+li { margin: auto .5rem;}
+
+section {padding: 5% 12%;}
+
 .navbar {
   background-color: #005792;
-  padding-left: 12%;
-  padding-right: 12%;
+  padding: 1% 12%;
 }
 
 .logo {
@@ -30,9 +33,7 @@ h3 {
   width: 50px;
 }
 
-#title li {
-  margin: auto .5rem;
-}
+#title {background-color: #00204a;}
 
 .brand-font {
   color: white;
@@ -52,26 +53,23 @@ h3 {
 }
 
 .background {
-  background-color: #00204a;
   color: white;
-  padding: 150px 12% 80px;
+  padding-bottom: 80px;
+  padding-top: 150px;
 }
 
 .column-1 {text-align: left;}
 
 .column-2 {text-align: right;}
 
-.download-button {margin: 5% 3% 5% 0;}
+.download-button {margin: 5% 3% 0 0;}
 
 .analytics-icon {
   height: 300px;
   width: 300px;
 }
 
-#features {
-  color: #5a5a5a;
-  padding: 7% 12%;
-}
+#features {color: #5a5a5a;}
 
 .feature-spacing {padding: 4%;}
 
@@ -83,37 +81,29 @@ h3 {
 
 .feature-icons:hover {color: #005792;}
 
-#infrastructure {
-  background-color: #448ef6;
-  padding: 7% 12%;
-}
+#infrastructure {background-color: #448ef6;}
 
-.column-3 {text-align: left;}
-
-#infrastructure img {
-  border-radius: 5%;
+.infrastructure-img {
   border: 3px solid #fdb44b;
+  border-radius: 5%;
   height: auto;
   padding: 1.5%;
   width: 100%;
 }
 
-#pricing {
-  color: #5a5a5a;
-  padding: 7% 12%;
-}
+.column-3 {text-align: left;}
+
+#pricing {color: #5a5a5a;}
 
 .disclaimer {font-size: .75rem;}
 
 .disclaimer-star {color: #fdb44b;}
 
-#cta {
-  background-color: #00204a;
-  padding: 5% 12% 3%;
-}
+#cta {background-color: #00204a;}
 
 #footer {
   color: #5a5a5a;
+  padding: 0;
   font-size: .75rem;
 }
 
@@ -138,7 +128,18 @@ h3 {
 .footer-middle-p {margin-bottom: .5rem;}
 
 @media (max-width: 991px) {
+  h1 {font-size: 3rem;}
+  section {padding: 5% 5%;}
   .column-1 {text-align: center;}
   .column-2 {text-align: center;}
   .column-3 {text-align: center;}
+  .download-button {margin: 5% 3% 5% 0;}
+  .infrastructure-img {
+    border: 3px solid #fdb44b;
+    border-radius: 5%;
+    height: auto;
+    margin: 3% 0;
+    padding: 1.5%;
+    width: 100%;
+  }
 }
