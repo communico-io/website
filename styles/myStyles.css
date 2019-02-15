@@ -33,8 +33,6 @@ section {padding: 5% 12%;}
   width: 50px;
 }
 
-#title {background-color: #00204a;}
-
 .brand-font {
   color: white;
   font-family: "Source Code Pro";
@@ -51,6 +49,8 @@ section {padding: 5% 12%;}
   background-color: #fdb44b;
   color: white;
 }
+
+#title {background-color: #00204a;}
 
 .background {
   color: white;
@@ -141,5 +141,19 @@ section {padding: 5% 12%;}
     margin: 3% 0;
     padding: 1.5%;
     width: 100%;
+  }
+  .navbar {
+    background-color: #005792;
+    padding: 1% 5%;
+  }
+  .logo {
+    height: 40px;
+    width: 40px;
+  }
+  .brand-font {
+    color: white;
+    font-family: "Source Code Pro";
+    font-size: 1.8rem;
+    font-weight: 700;
   }
 }
