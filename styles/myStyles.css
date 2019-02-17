@@ -54,8 +54,8 @@ section {padding: 5% 12%;}
 
 .background {
   color: white;
-  padding-bottom: 80px;
-  padding-top: 150px;
+  padding-bottom: 5%;
+  padding-top: 10%;
 }
 
 .column-1 {text-align: left;}
@@ -128,32 +128,23 @@ section {padding: 5% 12%;}
 .footer-middle-p {margin-bottom: .5rem;}
 
 @media (max-width: 991px) {
-  h1 {font-size: 3rem;}
+  body {font-size: .85rem;}
+  h1 {font-size: 2.5rem;}
+  h2 {font-size: 1.75rem;}
+  h3 {font-size: 1.25rem;}
   section {padding: 5% 5%;}
+  #footer {font-size: .65rem;}
+  .disclaimer {font-size: .65rem;}
+  .background {padding-top: 25%;}
   .column-1 {text-align: center;}
   .column-2 {text-align: center;}
   .column-3 {text-align: center;}
   .download-button {margin: 5% 3% 5% 0;}
-  .infrastructure-img {
-    border: 3px solid #fdb44b;
-    border-radius: 5%;
-    height: auto;
-    margin: 3% 0;
-    padding: 1.5%;
-    width: 100%;
-  }
-  .navbar {
-    background-color: #005792;
-    padding: 1% 5%;
-  }
+  .infrastructure-img {margin: 3% 0;}
+  .navbar {padding: 2% 5%;}
   .logo {
-    height: 40px;
-    width: 40px;
+    height: 2rem;
+    width: 2rem;
   }
-  .brand-font {
-    color: white;
-    font-family: "Source Code Pro";
-    font-size: 1.8rem;
-    font-weight: 700;
-  }
+  .brand-font {font-size: 1.6rem;}
 }
