@@ -16,7 +16,7 @@ h2 {
 
 h3 {
   font-size: 1.75rem;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 li { margin: auto .5rem;}
@@ -103,7 +103,8 @@ section {padding: 5% 12%;}
 
 #footer {
   color: #5a5a5a;
-  padding: 0;
+  padding-bottom: 0;
+  padding-top: 0;
   font-size: .75rem;
 }
 
@@ -143,8 +144,8 @@ section {padding: 5% 12%;}
   .infrastructure-img {margin: 3% 0;}
   .navbar {padding: 2% 5%;}
   .logo {
-    height: 2rem;
-    width: 2rem;
+    height: 2.3rem;
+    width: 2.3rem;
   }
   .brand-font {font-size: 1.6rem;}
 }
