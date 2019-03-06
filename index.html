@@ -182,7 +182,16 @@
   <section id="cta">
     <h2>Get started today, or donate to help improve this open source tool.</h2>
     <a role="button" class="btn btn-light btn-lg download-button" href="mailto:info@Communico.io?Subject=How%20do%20I%20get%20started%3F"><i class="fas fa-envelope"></i> Contact</a>
-    <a role="button" class="btn btn-outline btn-lg download-button check" href="#pricing"><i class="fab fa-bitcoin"></i> Donate</a>
+    <form method="POST" action="https://btcpay.reinto.nl/api/v1/invoices">
+      <input type="hidden" name="storeId" value="EjMiKntFCWAWhBSb2qsQ3BFmGq5Pbgz6X7CiUoJxnt5X" />
+      <input type="hidden" name="price" value="10" />
+      <input type="hidden" name="currency" value="EUR" />
+      <input type="hidden" name="browserRedirect" value="https://communico.io/" />
+      <input type="button" class="btn btn-outline btn-lg download-button check" name="submit" style="width:209px" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor">
+    </form>
+    
+    <!-- <a role="button" class="btn btn-outline btn-lg download-button check" href="#pricing"><i class="fab fa-bitcoin"></i> Donate</a>
+    -->
   </section>
 
   <section id="footer">
